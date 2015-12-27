@@ -1,1 +1,1 @@
-# 30_days_of_jquery
+# 5_days_of_jquery
