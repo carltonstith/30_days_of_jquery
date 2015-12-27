@@ -1,0 +1,31 @@
+.deal {
+  margin-top: 50px;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#gameCenterOne {
+  width: 100px;
+  height: 200px;
+  background-image: url("http://t10.deviantart.net/BjnrqVy4OQXXpKcgL4fo2REUpOk=/300x200/filters:fixed_height(100,100):origin()/pre07/7ee9/th/pre/i/2014/346/e/2/iron_markus_and_his_mighty_steed_by_kaelerreons-d89njbz.png");
+}
+
+#gameCenterTwo {
+  width: 100px;
+  height: 200px;
+  background-image: url("http://t01.deviantart.net/Hjy3krXbaK4VDf3kKi5MYkyOLa4=/300x200/filters:fixed_height(100,100):origin()/pre10/917e/th/pre/i/2014/016/8/1/watching_you_by_feral_cats-d6wxg3w.jpg");
+}
+
+#gameCenterThree {
+  width: 100px;
+  height: 200px;
+  background-image: url("http://1.bp.blogspot.com/_a3jR21Zo0NU/S462wVjX2II/AAAAAAAAAxA/jVBQTLBEDRE/s200/sideshowbob.jpg");
+}
+
+#button {
+  margin-top: 40px;
+  margin-left: 150px;
+}

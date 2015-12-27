@@ -4,28 +4,52 @@
 	<meta charset="UTF-8">
 	<title>5 Days of jQuery</title>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">5 Days of jQuery</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+	<div class="container home">
 		<div class="row">
+		<div class="col-sm-8">
 			<h1>5 Days of jQuery</h1>
+			<p>Hi. My name is Carlton Stith. I'm making 5 websites in 5 days. You can follow me on <a href="https://twitter.com/carltonstith">twitter</a> or read my <a href="http://www.ceejaysmedia.com/dotCeeJayS/">blog</a>. Enjoy &#128570; </p>
+			</div>
 		</div>
 
 		
-			<div class="row">
-				<ul>
-					<li><a href="#">Day 1</a></li>
-					<li><a href="#">Day 2</a></li>
-					<li><a href="#">Day 3</a></li>
-					<li><a href="#">Day 4</a></li>
-					<li><a href="#">Day 5</a></li>
-				</ul>
-			</div>
-		
-		
-
+		<div class="row">
+		<div class="col-sm-8">
+			<ul>
+				<li>Day 1 <a href="#">Homepage</a></li>
+				<li>Day 2 <a href="make_a_deal.html">Make a Deal!</a></li>
+				<li>Day 3 <a href="#">Day 3</a></li>
+				<li>Day 4 <a href="#">Day 4</a></li>
+				<li>Day 5 <a href="#">Day 5</a></li>
+			</ul>
+		</div>
+		</div>
 	</div>
+
 	<script src="bower_components/jquery/dist/jquery.min.css"></script>
-	<script src="js/scripts.js"></script>
 </body>
 </html>
