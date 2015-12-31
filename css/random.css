@@ -7,5 +7,8 @@ button {
 	position: absolute;
 	margin: 0 auto;
 	top: 50%;
-	left: 50%;
+	right: 50%;
+}
+.btn {
+	font-size: 30px;
 }
